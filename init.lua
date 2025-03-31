@@ -105,7 +105,7 @@ vim.opt.number = true
 -- vim.opt.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
-vim.opt.mouse = 'a'
+vim.opt.mouse = '' -- 'a' will enable mouse, but I want it off
 
 -- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
@@ -143,7 +143,7 @@ vim.opt.updatetime = 250
 vim.opt.timeoutlen = 300
 
 -- Configure how new splits should be opened
-vim.opt.splitright = true
+vim.opt.splitright = false -- if this is true, cursor goes to the right window
 vim.opt.splitbelow = true
 
 -- Sets how neovim will display certain whitespace characters in the editor.
