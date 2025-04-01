@@ -143,7 +143,7 @@ vim.opt.updatetime = 250
 vim.opt.timeoutlen = 300
 
 -- Configure how new splits should be opened
-vim.opt.splitright = false -- if this is true, cursor goes to the right window
+vim.opt.splitright = true -- if this is true, cursor goes to the right window, false for left
 vim.opt.splitbelow = true
 
 -- Sets how neovim will display certain whitespace characters in the editor.
